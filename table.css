@@ -1,0 +1,79 @@
+.family {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selection label {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-weight: bold;
+}
+
+.selection label label {
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+
+.table table{
+    width: 100%;
+    border: 1px solid #818181;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table th, 
+.table td {
+    padding: 5px;
+    border-bottom: 1px solid #818181;
+    border-right: 1px solid #818181;
+}
+
+.table th {
+    background-color: #eeeeee;
+    font-weight: bold;
+}
+
+.table tbody td:hover {
+    background-color: #f8f8f8;
+}
+
+.table td:first-child {
+    font-weight: bold;
+}
+
+.table select {
+    height: 30px;
+    line-height: 30px;
+    padding: 5 0 5 0px;
+    box-sizing: border-box;
+    background: none;
+}
+
+.table input {
+    height: 30px;
+    line-height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.add-row-btn {
+    display: inline-block;
+    color: rgb(31, 31, 31);
+    margin: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.add-row-btn:hover {
+    color: #2093e0;
+}
